@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors Game</title>
+    <link href="Style.css" rel="stylesheet" type="text/css"/>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+		
+
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">   user</div>
+        <div id="computer-label" class="badge">   comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="hands">
+        <div >
+            <img id="rockHandL" src="hands/rockHAND.png" alt="Rock Hand Left" />
+        </div>
+        <div >
+            <img id="rockHandR" src="hands/rockHAND.png" alt="Rock Hand Right" />
+        </div>
+
+    </div>
+
+
+    <div class="result">
+        <p>Paper Covers Rock. You Win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice">
+            <img id="r" src="hands/rock.png" alt="Rock Hand" />
+        </div>
+        <div class="choice">
+            <img id="p" src="hands/paper.png" alt="Paper Hand" />
+        </div>
+        <div class="choice">
+            <img id="s" src="hands/scissors.png" alt="Scissors Hand" />
+        </div>
+    </div>
+
+    <p id="action-message">Make Your Move.</p>
+
+    <script src="main.js" charset="utf-8"></script>
+
+</body>
+</html>
